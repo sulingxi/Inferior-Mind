@@ -11,11 +11,11 @@ Se indovini, compare un messaggio di vittoria; se sbagli, puoi riprovare.
 
 
 
-Scelte di sviluppo
-- Ho deciso di usare solo una pagina (StatefulWidget) per gestire tutto, con `setState()` per aggiornare i colori.
-- Il codice segreto viene generato in modo casuale con la classe `Random`.
-- Non ho usato librerie esterne, solo il materiale base.
-- Ho lasciato un `print` nel terminale per vedere il codice segreto (solo per test).
+
+Ho deciso di usare solo una pagina (StatefulWidget) per gestire tutto, con `setState()` per aggiornare i colori.
+Il codice segreto viene generato in modo casuale con la classe `Random`.
+Non ho usato librerie esterne, solo il materiale base.
+Ho lasciato un `print` nel terminale per vedere il codice segreto (solo per test).
 
 
 Funzionamento
