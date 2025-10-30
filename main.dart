@@ -71,10 +71,16 @@ class _GamePageState extends State<GamePage> {
       }
     }
 
-    String titolo = vinto ? "Hai vinto " : "Sbagliato ";
-    String messaggio = vinto
-        ? "Hai indovinato tutto!"
-        : "Non è giusto, riprova...";
+    String titolo;
+String messaggio;
+
+if (vinto) {
+  titolo = "Hai vinto ";
+  messaggio = "Hai indovinato tutto!";
+} else {
+  titolo = "Sbagliato ";
+  messaggio = "Non è giusto, riprova...";
+}
 
     showDialog(
       context: context,
@@ -122,8 +128,8 @@ class _GamePageState extends State<GamePage> {
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     backgroundColor: colorList[scelta[i]],
-                    minimumSize: const Size(55, 55),
-                    shape: const CircleBorder(),
+                    minimumSize: const Size(55, 55),  //grande
+                    shape: const CircleBorder(),     //cerchio
                   ),
                   onPressed: () => cambiaColore(i),
                   child: null,
@@ -140,4 +146,5 @@ class _GamePageState extends State<GamePage> {
     );
   }
 }
+
 
