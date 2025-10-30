@@ -139,12 +139,13 @@ if (vinto) {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton(
+      floatingActionButton: FloatingActionButton(    //√
         onPressed: controllaRisultato,
         child: const Icon(Icons.check),
       ),
     );
   }
 }
+
 
 
