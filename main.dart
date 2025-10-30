@@ -103,7 +103,7 @@ class _GamePageState extends State<GamePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Inferior Mind (versione semplificata)"),
+        title: const Text("Inferior Mind"),
         centerTitle: true,
       ),
       body: Column(
@@ -140,3 +140,4 @@ class _GamePageState extends State<GamePage> {
     );
   }
 }
+
